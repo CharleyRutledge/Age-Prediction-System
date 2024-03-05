@@ -1,0 +1,37 @@
+Model Summary:
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 198, 198, 32)      320       
+                                                                 
+ average_pooling2d (Average  (None, 99, 99, 32)        0         
+ Pooling2D)                                                      
+                                                                 
+ conv2d_1 (Conv2D)           (None, 97, 97, 64)        18496     
+                                                                 
+ average_pooling2d_1 (Avera  (None, 48, 48, 64)        0         
+ gePooling2D)                                                    
+                                                                 
+ conv2d_2 (Conv2D)           (None, 46, 46, 128)       73856     
+                                                                 
+ average_pooling2d_2 (Avera  (None, 23, 23, 128)       0         
+ gePooling2D)                                                    
+                                                                 
+ conv2d_3 (Conv2D)           (None, 21, 21, 256)       295168    
+                                                                 
+ average_pooling2d_3 (Avera  (None, 10, 10, 256)       0         
+ gePooling2D)                                                    
+                                                                 
+ global_average_pooling2d (  (None, 256)               0         
+ GlobalAveragePooling2D)                                         
+                                                                 
+ dense (Dense)               (None, 132)               33924     
+                                                                 
+ dense_1 (Dense)             (None, 3)                 399       
+                                                                 
+=================================================================
+Total params: 422163 (1.61 MB)
+Trainable params: 422163 (1.61 MB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
