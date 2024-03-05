@@ -13,7 +13,8 @@ after connecting to a runtime, click the **runtime** button again select **Run a
 This will execute the cells of code inside the notebook.
 
 ## Restrictions
-This project uses google Drive to store the dataset. The dataset will be stored on this repository for ease of access however mounting the driver is necessary as there is over 234,000 images and this is a storage issue.
+This project uses google Drive to store the dataset. The dataset can be downloaded by clicking [DropBox Link](https://www.dropbox.com/scl/fi/ebg1vr6bng0ayri5hf5bi/combined_faces_train_augmented-001.zip?rlkey=ege15x9dvoop3f053d51d18az&dl=0) for ease of access however mounting the driver is necessary as there is over 234,000 images and this is a storage issue.
+The dataset was obtained from [Skillcate](https://www.kaggle.com/datasets/skillcate/merged-augmented-utk-faces-facial-age-dataset)
 
 Running the project will produce different results each time so the values may not reflect the project that is stored in the repository.
 
