@@ -1,15 +1,15 @@
 # Age Prediction System by Charley Rutledge 
 ## How to download
-Please click the Code button and Click Download Zip or clone the repository.
+Please click the **Code** button and Click **Download Zip** or clone the repository.
 
 ## How to run
 **Please Note: There is a link that allows you open the notebook directly in the Final_year_Project.ipynb**
 
 ### Step 1
-After opening the notebook, connect to a runtime by clicking connect in the top right corner or in the navbar in the top left, select Runtime and Please select T4 GPU. For this project Google Colab Pro was used which gave access to High RAM and more powerful GPU's.
+After opening the notebook, connect to a runtime by clicking **connect** in the top right corner or in the navbar in the top left, select **Runtime** and Please select **T4 GPU**. For this project Google Colab Pro was used which gave access to High RAM and more powerful GPU's.
 
 ### Step 2
-after connecting to a runtime, click the runtime button again select Run all. 
+after connecting to a runtime, click the **runtime** button again select **Run all**. 
 This will execute the cells of code inside the notebook.
 
 ## Restrictions
