@@ -2280,7 +2280,7 @@ Predicted Age: 1
 ```
 Table: Table containing the images that were tested and the index at which they were
 stored and the images original age and predicted age.
-```
+
 #### Possible cause and solution
 
 There are several possibilities why this is not accurately, The quality of the data, the data that
