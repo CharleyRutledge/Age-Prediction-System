@@ -280,6 +280,8 @@ The filter location is called a receptive field which is where a CNN feature is 
 specifically at. (The,H 2017), the result represents a single value which signifies the outcome
 of the convolutional operation for a given filter location.
 
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/911bba6a-6d0c-483a-88dc-eab95a39b430)
+
 ```
 Figure 3 : Convolutional operation calculates a single value (Opencv.org, 2023)
 ```
@@ -302,6 +304,7 @@ maps and to extract the features of activation maps. The result of pooling is th
 the number of parameters within the convolutional neural network as it shrinks the input size
 for subsequent layers. This reduction of parameters streamlines the computational demands
 during training and reduces the issue of over fitting. (Yamashita et al., 2018)
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/98ee6551-a386-4d34-92e1-764b16810846)
 
 ```
 Figure 4: max pooling example (Opencv.org, 2023)
@@ -368,10 +371,12 @@ by indicating the direction in which the function exhibits the most significant 
 learnable parameter is updated in the opposite direction of the gradient and the magnitude of
 the update is influences by an adjustable step size dictated by a hyperparameter known as the
 learning rate. (Yamashita et al., 2018)
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/540ad401-68b2-4182-b440-7d6e4fbae0f1)
 
 ```
 Figure 5: Gradient update of a parameter formula (Yamashita et al., 2018)
 ```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/12951faf-5e1d-4bd4-a566-4c5b45f9f2dd)
 
 ```
 Figure 6: a convex shaped loss function with a single tunable parameter called W
@@ -415,7 +420,7 @@ and Arumugam, 2022).
 UTKFace is a large dataset with an age range from 0 to 116 years containing over twenty
 thousand images with age, gender, and ethnicity annotations.
 
-### Labels...............................................................................................................................
+### Labels
 
 The labels are embedded in the filename and are formatted as such : age, gender, race, date
 and time.
@@ -464,6 +469,8 @@ movement tracking and object motion detection. OpenCV (2018)
 ## Analysis and Design
 
 ### Use Case Diagram
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/08645c4e-fd65-4e79-a300-688803661a84)
+
 
 ```
 Figure 7: Age detection system use case diagram
@@ -489,6 +496,7 @@ Figure 7: Age detection system use case diagram
     a. The system displays an error message to the user interface.
 
 ### Sequence diagram
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/59ebb10d-5f82-4af2-8bfb-0c7e7b8eb339)
 
 ```
 Figure 8: Age detection sequence diagram showing how the user interacts with the systems
@@ -1224,6 +1232,7 @@ neurons in the
 previous layer
 **Other Names:** Fully connected
 layer
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/9a1d3ca1-da27-4964-8977-15f9f31ca86e)
 
 ```
 Figure
@@ -1271,6 +1280,7 @@ metric
 complete
 model or
 weights only
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/67d3121e-e1a7-4351-8ddc-941db9aa356d)
 
 ```
 Figure 2: Example of model callback use in the project
@@ -1351,6 +1361,7 @@ between classes
 efficient
 processing by
 models
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/46dc23dd-5d24-4c1b-b6a4-3ce5544a0f89)
 
 ```
 Figure 3: Example of one hot encoding Brownlee (2017)
@@ -1486,6 +1497,7 @@ data points
 ### Fitting the model
 
 Using model.fit(), the model trains the data based on the arguments passed.
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/c1ec1cc0-34de-4d6d-acae-276da3a6f4ce)
 
 ```
 Figure 4: Usage of fit in the project
@@ -1564,6 +1576,7 @@ performance.
 - Convergence in loss
     curves indicates
     optimal model state.
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/de599c7c-46d1-44e7-aaa0-f3fefa396e4e)
 
 ```
 Figure 5: Example of loss and accuracy plots from the project
@@ -1911,6 +1924,7 @@ will be displayed in the result text box, this will show the predicted age of th
 
 
 image. The image below is a wireframe designed wireframePro by Mockflow.
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/f965d75c-a35f-4d04-a6fa-db443cb5078f)
 
 ```
 Figure 6: Wireframe of proposed user interface
@@ -1944,6 +1958,7 @@ Augmentation, as employed in this project, involves the application of modificat
 existing datasets, including but not limited to image rotations. By creating synthetic data
 points, augmentation effectively expands the dataset's size, thereby facilitating more robust
 model training and improving its generalization capabilities.
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/7d06c453-4f2f-45ef-ae9e-d6e096470c39)
 
 ```
 Figure 7: Example of data augmentation AI (2022)
@@ -1996,6 +2011,7 @@ dataset during the implementation phase, the dataset was stored on google drive.
 4. Printing the current GPU information.
 
 ### A Nvidia-SMI GPU with High RAM was enabled to allows the project to run.
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/39174bd1-75b7-4b75-a919-a5e5e9e57efb)
 
 ```
 Figure 8: GPU information used in project.
@@ -2012,19 +2028,24 @@ Figure 8: GPU information used in project.
 
 
 ### Generate a histogram and KDE plot for the ages dataframe
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/237c13b1-6f01-4b5e-bcd4-ba19516b6cd8)
 
 ```
 Figure 9: Visualization of the amount of ages in the dataset used in the project.
 ```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/e6c77399-12d1-403f-aaed-a945b241ebc6)
+
 ```
 Figure 10: Visualization of the dataset that had values over 50 reduced in the project.
 ```
 Displays the occurrence of ages in increments of 5 to find out the precise imbalances in the
 dataset. Sample the amount of images of 26-year-olds by 60%.
 
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/4dade5fe-a2aa-48d7-9992-0cd6868f66e9)
 
 **Figure 11: Visualization of the amount of ages in the dataset used in the project after
 being 26-year-old values were reduced.**
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/f316d805-8377-4f87-b16a-653295518129)
 
 ```
 Sample the amount of images of 1-year olds by 70%
@@ -2053,6 +2074,7 @@ being 1-year-old values were reduced.**
 
 23. Printing and saving the model structure to the folder
 
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/d09576ad-c889-4676-bebb-8ac2ce857224)
 
 ```
 Figure 13: Model summary that is based off the neural network used in the project.
@@ -2067,6 +2089,7 @@ Figure 13: Model summary that is based off the neural network used in the projec
     them up.
 27. The model results are plotted using line plots which describe the accuracy and loss of
     the test and train splits.
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/045d4d70-759a-4898-813a-0e96fb58111c)
 
 **Figure 14: Plotting the model after training and displaying the loss and accuracy
 of the CNN by epochs.**
@@ -2080,6 +2103,7 @@ of the CNN by epochs.**
 34. A folder is created to store the confusion matrix
 35. The confusion matrix is created and displayed; it is then saved to the folder.
 
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/b1b8ed26-12c3-4e8e-8a93-e433cb529a08)
 
 ```
 Figure 15: A confusion matrix that is used in the project that measures the overall
@@ -2168,10 +2192,9 @@ The model would accurately predict the age range of the new data that was proces
 
 ### Actual results
 
-### Actual results
-
 The model did not accurately predict the age range of the new data. my age is 28. The model
 predicts I belong in the 0-16 age range.
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/9824378d-6868-4a09-aa42-bd3d5c7e731e)
 
 ```
 Image 1: an image of my face show the predicted age range.
@@ -2195,39 +2218,60 @@ The model would accurately predict the age range of the images that were selecte
 
 The model did not accurately predict the age range of the image data.
 
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/4a43a008-a96e-4421-9bf6-4c390c39bf9d)
 
 ```
 Index: 0, Original Age: 28,
 Predicted Age: 0
 ```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/d1f332d7-da11-41c3-8fed-c93966e69288)
+
 ```
 Index: 1, Original Age:
 28, Predicted Age: 0
 ```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/40e4bf86-71e1-43b1-8519-9690f2a6295a)
+
 ```
 Index: 2, Original Age: 5,
 Predicted Age: 1
 ```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/57e8c6ba-4f86-4540-a73f-084b405b4df1)
+
 ```
 Index: 3, Original Age: 38,
 Predicted Age: 0
 ```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/8952381e-d3ec-4e69-946b-734aaf8d45e0)
+
 ```
 Index: 5, Original Age:
 21, Predicted Age: 0
 ```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/8ad10a9d-9ffd-4231-829c-ba6c54ee7073)
+
 ```
 Index: 6, Original Age: 1,
 Predicted Age: 1
 ```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/13b6a149-8a0b-49da-b39f-60a3a4f58778)
+```
 Index: 4, Original Age: 35,
 Predicted Age: 0
+```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/58cd9098-e21b-42bb-907d-01619e1e678c)
 
 ```
 Index: 7, Original Age:
 29,Predicted Age: 0
+```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/4d53d66e-e18e-43bf-8abb-2ec54516f66c)
+```
 Index: 8, Original Age: 32,
 Predicted Age: 0
+```
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/fdfb6674-6b53-42c6-933c-04bf29245c01)
+
 ```
 Index: 9, Original Age: 2,
 Predicted Age: 1
@@ -2258,7 +2302,9 @@ a high level of accuracy and images that were True positives.
 
 #### Actual results
 
-##### 1.
+
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/570dae36-52c0-4020-b9b6-554179643b04)
+
 
 **2. Image of confusion matrix used in the project**
 
@@ -2272,6 +2318,7 @@ label for age ranges 17-27.
 
 
 ### Classification report
+![image](https://github.com/CharleyRutledge/Age-Prediction-System/assets/99267310/5d3f0131-86f7-4f2b-9a79-f0447688104e)
 
 ```
 Image showing the scores of the classification report.
